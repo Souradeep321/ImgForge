@@ -1,7 +1,13 @@
-import Image from "next/image";
+import React from 'react'
+import { UserButton } from '@clerk/nextjs'
 
-export default function Home() {
+const Home = () => {
   return (
-    <main>Home</main>
-  );
+    <div>
+      <p>Home</p>
+      <UserButton />
+    </div>
+  )
 }
+
+export default Home
